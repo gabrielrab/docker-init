@@ -6,8 +6,8 @@ try {
   const conn = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "password"
-    //database: "rapicare"
+    password: "password",
+    database: "rapicare"
   });
 
   conn.connect(function(err) {
