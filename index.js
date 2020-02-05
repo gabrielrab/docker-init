@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 //MySQL
 try {
   const conn = mysql.createConnection({
-    host: "localhost",
+    host: "",
     user: "root",
     password: "password"
     //database: "rapicare"
