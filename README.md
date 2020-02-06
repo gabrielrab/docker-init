@@ -6,3 +6,5 @@ This project is a small demonstration of the use of the **docker compose**. In i
 Using yarn :
 
 ``yarn install`` -- after --  ``yarn run start``
+
+done with love
