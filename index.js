@@ -1,3 +1,4 @@
+//dependencies
 const mysql = require("mysql");
 const mongoose = require("mongoose");
 
@@ -30,7 +31,8 @@ try {
 
 //MongoDB
 mongoose.connect(
-  "mongodb://root:root@localhost:27017",
+  //"mongodb://root:root@localhost:27017"
+  "mongodb://user:password@host:port", //here your connection
   {
     useNewUrlParser: true,
     useUnifiedTopology: true
