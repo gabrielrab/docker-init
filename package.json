@@ -8,7 +8,7 @@
     "dev": "nodemon ./index.js"
   },
   "dependencies": {
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.13.15",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.2"
   }
